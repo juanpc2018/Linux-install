@@ -85,12 +85,12 @@ but there are other differences with Virtual memory management. </br>
 
 
 The basic method to install Linux: </br>
-#1. download an .iso, </br>
+#1. download an .iso [.torrent](https://kubuntu.org/alternative-downloads/) is the fastest method. </br>
 #2. download an .iso burner to USB pen drive </br>
 like BalenaEtcher, Rufus, and many others. </br>
 #3. burn the .iso to USB pen drive usually 8GB or more. </br>
 #4. ReBoot machine.
-#5. Press F11 / F12 or similar "depends on the machine", </br>
+#5. Press F11 / F12 or similar "depends on the machine BIOS brand", </br>
 to activate the: Boot menu. </br>
 #6. select the USB pen drive. </br>
 #7. Boot from the USB pen drive.  </br>
@@ -98,7 +98,7 @@ to activate the: Boot menu. </br>
 there are more steps but those depend on your install method: </br>
 Internal or External. </br>
 
-installing Internal can be done 2 ways: </br>
+installing Internal can be in 2 ways: </br>
 Creating a Partition on the same Windows install "Not Recommended" Advanced user only. </br>
 installing to another SSD / M.2 drive </br>
 some machines allow to install 2x SSD/M.2 internally, </br>
