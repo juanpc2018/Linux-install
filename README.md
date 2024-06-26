@@ -7,7 +7,7 @@ there are Pros and Cons.
 
 1st you need to know the basic differences,</br>
 then you can understand the Pros and Cons</br>
-then you can find your favorite Linux.</br>
+then you can [find](https://distrowatch.com/) your favorite Linux.</br>
 
 If installing Linux on a Internal SSD/M.2 drive: </br>
 #1. requires to set BIOS/UEFI to allow AHCI in laptops with Optane,</br>
