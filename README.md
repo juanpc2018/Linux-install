@@ -70,7 +70,7 @@ software written for RPM can be converted to DEB with Alien app. </br>
 in Debian World, there is also many branches, </br>
 custom designed with pre-installed software for different type of users. </br>
 Office, Video editing, Sound DAW, Gaming or Clean Type, with No pre-installed software. </br>
-Barebone. </br>
+Barebone DIY. </br>
 
 the most popular Debian Type Distro is Ubuntu. </br>
 but there is also other branches: Kubuntu, Xubuntu, Lubuntu, etc... </br>
