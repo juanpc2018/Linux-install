@@ -81,7 +81,7 @@ Office, Video editing, Sound DAW, Gaming or Clean Type, No pre-installed softwar
 Barebone DIY. </br>
 
 the most popular Debian Distro is Ubuntu. </br>
-but there is also other branches: Kubuntu, Xubuntu, Lubuntu, etc... </br>
+but there is also other branches: Kubuntu, Xubuntu, Lubuntu, Wubuntu, etc... </br>
 The main difference is the "Desktop Environment" </br>
 Linux allows to have different flavours of Desktop. </br>
  
