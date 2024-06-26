@@ -121,6 +121,14 @@ and does Not have Thunderbolt3 port. </br>
 iFix it has many tutorials how to unscrew many machines, </br>
 if want to open and install a New SSD/M.2 drive. </br>
 
+#### Installing External
+
+USB3 cases from Orinco are very nice, have RTL9210 controller </br>
+BUT... M.2 NVMe drives used external USB3 require a High [Efficiency (MB/s per Watt)](https://www.tomshardware.com/reviews/pny-xlr8-cs3140-ssd-review/2).
+or will overheat and get partially damaged. </br>
+
+----------------------
+
 Software i recommend installing: </br>
 $ snap install cpufetch </br>
 $ apt install cpupower-gui </br>
