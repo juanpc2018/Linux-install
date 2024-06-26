@@ -71,8 +71,11 @@ BSD, and Arch. </br>
 BSD forked in different OS, for Sony PlayStation4, Mac OSX, etc... </br>
 
 software written for RPM can be converted to DEB with Alien app. </br>
+Distros like [T2 SDE](https://t2sde.org/download/) are available for many different CPU architectures. </br>
+x86_64, Motorola 68K, MIPS, Arm aarch64, etc... </br>
+There are Distros that only support 1 type of CPU, like [Asahi Linux](https://asahilinux.org/about/) for M1 M2 CPUs.
 
-in Debian World, there is many branches, </br>
+in Debian econsystem there are many branches, most are for x86_64 CPUs Intel or AMD. </br>
 custom designed with pre-installed software for different type of users. </br>
 Office, Video editing, Sound DAW, Gaming or Clean Type, with No pre-installed software. </br>
 Barebone DIY. </br>
@@ -117,3 +120,7 @@ and does Not have Thunderbolt3 port. </br>
 
 iFix it has many tutorials how to unscrew the machine, if want to open and install a New SSD/M.2 drive. </br>
 
+Software i recommend installing: </br>
+$ snap install cpufetch </br>
+$ apt install cpupower-gui </br>
+$ apt install cpu-x </br>
