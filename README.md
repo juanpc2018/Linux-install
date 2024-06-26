@@ -7,81 +7,88 @@ there are Pros and Cons.
 
 1st you need to know the basic differences,</br>
 then you can understand the Pros and Cons</br>
-then you can find your favorite linux.</br>
+then you can find your favorite Linux.</br>
 
-IF installing Linux on a internal SSD/M.2 drive: </br>
+If installing Linux on a Internal SSD/M.2 drive: </br>
 #1. requires to set BIOS/UEFI to allow AHCI in laptops with Optane,</br>
-or wont detect/boot the SSD/M.2.</br>
-usually Control+S in Main BIOS/Menu or similar to Unhide to make visible the menu.</br>
+or wont detect or boot the SSD/M.2.</br>
+usually [Control+S] in Main BIOS/Menu or similar to Unhide / make visible the menu. </br>
 
 Linux can also be installed "Portable" on a External SSD/M.2 </br>
 IF using a USB pen drive as main, Linux will be very slow, flash memory is Not recommended. </br>
 IF using a USB SSD/M.2 drive, will run max at 500MB/s in USB3.0 "fast enough" </br>
 IF using a USB HDD 2.5" drive, will run slower 160MB/s on USB3.0 "Not fast" </br>
-IF using a Thunderbolt3 case drive, will run faster than USB3.0 </br>
-IF using a Thunderbolt2 will run slower. </br>
-USB4.0 Thunderbolt3 is Optional, Not default. </br>
+IF using a Thunderbolt3 case drive with SSD/M.2, will run faster than USB3.0 </br>
+IF using a Thunderbolt2 SSD/M.2 will run slower If using a TB3 to TB2 adapter. </br>
+USB4.0 Thunderbolt3 is Optional, Not all machines have it. </br>
 
-when formatting SSD/M.2 the 1st time "Clean Install" </br>
-Linux allows to formatt the drive in different File Systems. </br>
+When formatting SSD/M.2 the 1st time "Clean Install" </br>
+Linux allows to format the drive with different File Systems. </br>
 does Not have a fixed FileSystem like other OS. </br>
-Windows has NTFS since 7, has ReFS for Servers. </br>
+Windows has NTFS since 7, ReFS for Servers. </br>
 OSX since 10.6 SnowLeopard has HFS+ </br>
 OSX since 10.13 HighSierra has APFS </br>
 
 Linux has Ext4, the most common FileSystem, </br>
 but Newer Ext4 since Linux >16 is Not backward compatible with older Ext4 v1.0 </br>
 
-New Ext4 makess weird sounds when formatting a Large HDD 18TB, because the strict pre-empt Journaling. </br>
+New Ext4 makes weird sounds when formatting a Large HDD 18TB, because the strict Journaling. </br>
 Jurnaling means that the drive stores the changes about to be made by the OS, like a Log </br>
-if there is a problem like a power failure, the FileSystem can see and auto correct the errors </br>
-without Journaling errors need to be corrected manually. </br>
+if there is a problem like a power failure, the FileSystem can see and auto-correct the errors </br>
+without Journaling, errors need to be corrected manually. </br>
 but different FS have different methods how to implement Journaling. </br>
 some very strict at time of format, others as drive gets filled. </br>
 
-Btrfs has interesting features, but... </br>
+Btrfs has interesting features, ZFS... </br>
 XFS is the FileSystem i prefer, at least for large HDDs. </br>
 
-there is software that allows to Read/Write Ext4 old & New "64-Bit magic numbers", </br>
-Ext2Fsd 0.69 works in Windows to R/W Old Ext4 v1.0 32-Bit</br>
-Ext2Fsd 0.71 is a fork, and a work in progress. Read Only, Write with caution. </br>
+There is software that allows to Read/Write Ext4 old & New "64-Bit magic numbers", in Windows </br>
+Ext2Fsd 0.69 works in Windows R/W Old Ext4 v1.0 32-Bit </br>
+Ext2Fsd 0.71 is a fork, and work in progress. Read Only, Write with Caution. </br>
 
-Linux allows to Read & Write many file systems, Ext4, NTFS, ExFAT, FAT32, HFS+, APFS with optional Paragon drivers, etc...
+Linux allows to Read & Write many file systems: </br>
+Ext4, NTFS, ExFAT, FAT32, Btrfs, XFS, ZFS, HFS+, APFS with optional Paragon drivers, etc... </br>
 if want to Read/Write in 1 Machine all FileSystems = Not recommended. </br>
 for 100% compatibility is better to have multiple machines connected by Ethernet 1Gbe or faster. </br>
-10G SFP+ fiber optic goes at 1200MB/s direct, or 500MB/s using a Router with a dual core 600MHz cpu. </br>
+10G SFP+ fiber optic goes at 1200MB/s direct, or 500MB/s using a Router with a slow dual core 600MHz cpu. </br>
 
 Each OS has a different methods to see the other machines with Samba SMB v1 v2 v3 </br>
 Windows needs to manually activate Samba in Powershell, </br>
-and SMB drives cannot be seen with Windows Network File Manager, like Normal Windows Network. </br>
-needs to access manually typing the IP addres on Commnad ./192.168.1.1 </br>
+SMB drives cannot be seen with Windows Network File Manager, like Normal Windows Network. </br>
+needs to access manually typing the IP addres on Command: ./192.168.1.1 </br>
 
 ------------------
 
 There are many different Linux versions: </br>
-Debian type "DEB", RedHat Type "RPM", Arch type, BSD type. </br>
+Debian type "DEB" </br>
+RedHat Type "RPM" </br>
+Arch type </br>
+BSD type. </br>
 
 RPM is usually for servers, corporations using POWER9 CPUs. </br>
 Debian is the most common Linux type. </br>
 BSD, and Arch. </br>
+BSD forked in different OS, for Sony PlayStation4, Mac OSX, etc... </br>
 
 software written for RPM can be converted to DEB with Alien app. </br>
 
-in Debian World, there is also many branches, </br>
+in Debian World, there is many branches, </br>
 custom designed with pre-installed software for different type of users. </br>
 Office, Video editing, Sound DAW, Gaming or Clean Type, with No pre-installed software. </br>
 Barebone DIY. </br>
 
-the most popular Debian Type Distro is Ubuntu. </br>
+the most popular Debian Distro is Ubuntu. </br>
 but there is also other branches: Kubuntu, Xubuntu, Lubuntu, etc... </br>
 the main difference is the "Desktop Environment" </br>
-Linux allows to have different flavours of Desktop, </br>
+Linux allows to have different flavours of Desktop. </br>
  
 KDE is the most popular Desktop, Gnome, Cinnamon "a fork of Gnome", MATE, Xfce, etc... </br>
 different Distros come with different Desktop environments pre-installed. </br>
 Linux allows to instal other if desired, like for example: </br>
+[MaXX](https://docs.maxxinteractive.com/) based on the sgi UNIX [IRIX](https://en.wikipedia.org/wiki/IRIX) OS, but requires NVIDIA GPU. </br>
 
-but there are other differences with Virtual memory management. </br>
+there are other configuration differences, like the size of the Virtual memory, etc... </br>
+but that can also be changed by the user later. </br>
 
 
 The basic method to install Linux: </br>
