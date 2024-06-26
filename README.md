@@ -14,7 +14,7 @@ If installing Linux on a Internal SSD/M.2 drive: </br>
 or wont detect or boot the SSD/M.2.</br>
 usually [Control+S] in Main BIOS/Menu or similar to make visible the menu. </br>
 #2. Disable [Secure Boot](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-secure-boot) </br>
-With Secure Boot Active/Enabled, Bios/UEFI Only allows to Boot from the OEM OS pre-installed at factory. </br>
+Secure Boot Active/Enabled, Only allows to Boot internally from the OEM OS pre-installed at factory. </br>
 
 Linux can also be installed "Portable" on a External SSD/M.2 </br>
 IF using a USB pen drive as main, Linux will be very slow, flash memory is Not recommended. </br>
