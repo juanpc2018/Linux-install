@@ -1,6 +1,6 @@
 ## Linux-install
 
-for Begginers.</br>
+for Beginners.</br>
 
 Windows is Internal but Linux can be Internal or External "Portable" </br>
 there are Pros and Cons. 
@@ -159,6 +159,7 @@ Krita "GIMP alternative"  </br>
 [OpenOffice](https://www.openoffice.org/download/index.html) or LibreOffice </br>
 SuperTux "SuperMario 2D scroller type" </br>
 Extreme Tux Racer "3D OpenGL Winter Games" works with intel iGPUs </br>
+Timidity "MIDI Player" </br>
 
 #### Optional: </br>
 Signal Desktop </br>
