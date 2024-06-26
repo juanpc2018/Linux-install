@@ -112,7 +112,7 @@ there is optional methods: </br>
 people that want to install / test different .isos </br>
 instead of burning each individually to many slow Pen Drives </br>
 use a software called Ventoy, that allows to Boot from a large HDD </br>
-and have multiple .isos Not burned, and select a menu what .iso to Boot. </br>
+and have multiple .isos Unburned, and select a menu what .iso to Boot. </br>
 much better option if want to try different Distros. </br>
 
 ### Installing Internal 2 ways: </br>
