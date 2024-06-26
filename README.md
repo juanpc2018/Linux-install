@@ -118,9 +118,40 @@ machines with only 1 internal SSD/M.2 is better to install Linux to External dri
 unless you want the extra speed 500MB/s USB3 vs. 1600MB/s 2500MB/s 5000MB/s of PCIe v2 v3 v4 v5 </br>
 and does Not have Thunderbolt3 port. </br>
 
-iFix it has many tutorials how to unscrew the machine, if want to open and install a New SSD/M.2 drive. </br>
+iFix it has many tutorials how to unscrew many machines, </br>
+if want to open and install a New SSD/M.2 drive. </br>
 
 Software i recommend installing: </br>
 $ snap install cpufetch </br>
 $ apt install cpupower-gui </br>
 $ apt install cpu-x </br>
+Synaptic package manager </br>
+Spectacle screen capture or Shutter </br>
+$ apt install neofetch </br> 
+Kpatience "solitaire" </br>
+Warpinator "Wi-Fi file transfer between Android, Linux, and Windows" requires Router with open ports. </br>
+BlockOut II "3D Tetris" </br>
+OBS Studio video screen capture record & streaming </br>
+Okular "pdf viewer" </br>
+GIMP "Photoshop alternative" </br>
+InkSkape "Vector alternative to CorelDraw, Adobe ilustrator" </br>
+Krita "GIMP alternative"  </br>
+
+#### Optional: </br>
+Signal Desktop </br>
+Skype </br>
+ALSA Focursire Control Panel </br>
+
+#### Browsers: </br>
+Yandex </br>
+Firefox </br>
+LibreWolf </br>
+ArticFox </br>
+Opera </br>
+Vivaldi </br>
+Chromium </br>
+Brave </br>
+Thorium </br>
+MeetSideKick </br>
+Tor </br>
+etc... </br>
