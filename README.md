@@ -75,27 +75,27 @@ Distros like [T2 SDE](https://t2sde.org/download/) are available for many differ
 x86_64, Motorola 68K, MIPS, Arm aarch64, etc... </br>
 There are Distros that only support 1 type of CPU, like [Asahi Linux](https://asahilinux.org/about/) for M1 M2 CPUs.
 
-in Debian econsystem there are many branches, most are for x86_64 CPUs Intel or AMD. </br>
-custom designed with pre-installed software for different type of users. </br>
-Office, Video editing, Sound DAW, Gaming or Clean Type, with No pre-installed software. </br>
+in Debian there are many branches, most are for x86_64 CPUs Intel or AMD. </br>
+custom designed with pre-installed software for different type of users: </br>
+Office, Video editing, Sound DAW, Gaming or Clean Type, No pre-installed software. </br>
 Barebone DIY. </br>
 
 the most popular Debian Distro is Ubuntu. </br>
 but there is also other branches: Kubuntu, Xubuntu, Lubuntu, etc... </br>
-the main difference is the "Desktop Environment" </br>
+The main difference is the "Desktop Environment" </br>
 Linux allows to have different flavours of Desktop. </br>
  
 KDE is the most popular Desktop, Gnome, Cinnamon "a fork of Gnome", MATE, Xfce, etc... </br>
-different Distros come with different Desktop environments pre-installed. </br>
+different Distros come with different Desktops pre-installed. </br>
 Linux allows to instal other if desired, like for example: </br>
-[MaXX](https://docs.maxxinteractive.com/) based on the sgi UNIX [IRIX](https://en.wikipedia.org/wiki/IRIX) OS, but requires NVIDIA GPU. </br>
+[MaXX](https://docs.maxxinteractive.com/) based on the sgi [IRIX](https://en.wikipedia.org/wiki/IRIX) OS, but requires NVIDIA GPU. </br>
 
-there are other configuration differences, like the size of the Virtual memory, etc... </br>
-but that can also be changed by the user later. </br>
+there are other configuration differences, like the size of the Virtual memory, SWAP file, etc... </br>
+but that can also be changed by the user. </br>
 
 
-The basic method to install Linux: </br>
-#1. download an .iso [.torrent](https://kubuntu.org/alternative-downloads/) is the fastest method. </br>
+### The basic method to install Linux: </br>
+#1. download any .iso example: [.torrent](https://kubuntu.org/alternative-downloads/) the fastest method. </br>
 #2. download an .iso burner to USB pen drive </br>
 like BalenaEtcher, Rufus, and many others. </br>
 #3. burn the .iso to USB pen drive usually 8GB or more. </br>
@@ -107,6 +107,13 @@ to activate the: Boot menu. </br>
 
 there are more steps but those depend on your install method: </br>
 Internal or External. </br>
+
+there is optional methods: </br>
+people that want to install / test different .isos </br>
+instead of burning each individually to many slow Pen Drives </br>
+use a software called Ventoy, that allows to Boot from a large HDD </br>
+and have multiple .isos Not burned, and select a menu what .iso to Boot. </br>
+much better option if want to try different Distros. </br>
 
 ### Installing Internal 2 ways: </br>
 
