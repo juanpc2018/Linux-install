@@ -108,7 +108,8 @@ to activate the: Boot menu. </br>
 there are more steps but those depend on your install method: </br>
 Internal or External. </br>
 
-installing Internal can be in 2 ways: </br>
+### Installing Internal can be in 2 ways: </br>
+
 Creating a Partition on the same Windows install "Not Recommended" Advanced user only. </br>
 installing to another SSD / M.2 drive </br>
 some machines allow to install 2x SSD/M.2 internally, </br>
@@ -121,7 +122,7 @@ and does Not have Thunderbolt3 port. </br>
 iFix it has many tutorials how to unscrew many machines, </br>
 if want to open and install a New SSD/M.2 drive. </br>
 
-#### Installing External
+### Installing External:
 
 USB3 cases from Orinco are very nice, have RTL9210 controller </br>
 BUT... M.2 NVMe drives used external USB3 require a High [Efficiency (MB/s per Watt)](https://www.tomshardware.com/reviews/pny-xlr8-cs3140-ssd-review/2) </br>
