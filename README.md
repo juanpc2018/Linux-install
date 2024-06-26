@@ -157,8 +157,8 @@ GIMP "Photoshop alternative" </br>
 InkSkape "Vector alternative to CorelDraw, Adobe ilustrator" </br>
 Krita "GIMP alternative"  </br>
 [OpenOffice](https://www.openoffice.org/download/index.html) or LibreOffice </br>
-SuperTux "Mario 2D scroller type" </br>
-ExtremeTuxRacer "3D OpenGL Winter Games" works with intel iGPUs </br>
+SuperTux "SuperMario 2D scroller type" </br>
+Extreme Tux Racer "3D OpenGL Winter Games" works with intel iGPUs </br>
 
 #### Optional: </br>
 Signal Desktop </br>
