@@ -134,6 +134,8 @@ if want to open and install a New SSD/M.2 drive. </br>
 USB3 cases from Orinco are very nice, have RTL9210 controller </br>
 BUT... M.2 NVMe drives used external require a High [Efficiency (MB/s per Watt)](https://www.tomshardware.com/reviews/pny-xlr8-cs3140-ssd-review/2) </br>
 400MB/s Watt minimum, 300MB/s will overheat and get partially damaged when moving large files >100GB. </br>
+Orinco cases have a Heatsink but some M.2 drives are 1 or 2mm bigger on the sides, </br>
+needs to open 1 leg of the heatsink wider with pliers, before installing the M.2 </br>
 
 ----------------------
 
