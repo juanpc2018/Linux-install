@@ -108,10 +108,10 @@ to activate the: Boot menu. </br>
 there are more steps but those depend on your install method: </br>
 Internal or External. </br>
 
-### Installing Internal can be in 2 ways: </br>
+### Installing Internal 2 ways: </br>
 
-Creating a Partition on the same Windows install "Not Recommended" Advanced user only. </br>
-installing to another SSD / M.2 drive </br>
+A) Creating a Partition on the same Windows install "Not Recommended" Advanced user only. </br>
+B) installing to another SSD / M.2 drive </br>
 some machines allow to install 2x SSD/M.2 internally, </br>
 some machines only have 1 slot and require to manually uninstall the old SSD/M.2. </br>
 
