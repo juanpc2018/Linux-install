@@ -87,7 +87,7 @@ Linux allows to have different flavours of Desktop. </br>
  
 KDE is the most popular Desktop, Gnome, Cinnamon "a fork of Gnome", MATE, Xfce, etc... </br>
 different Distros come with different Desktops pre-installed. </br>
-Linux allows to instal other if desired, like for example: </br>
+Linux allows to instal other if desired, for example: </br>
 [MaXX](https://docs.maxxinteractive.com/) based on the sgi [IRIX](https://en.wikipedia.org/wiki/IRIX) OS, but requires NVIDIA GPU. </br>
 
 there are other configuration differences, like the size of the Virtual memory, SWAP file, etc... </br>
@@ -99,7 +99,7 @@ but that can also be changed by the user. </br>
 #2. download an .iso burner to USB pen drive </br>
 like BalenaEtcher, Rufus, and many others. </br>
 #3. burn the .iso to USB pen drive usually 8GB or more. </br>
-#4. ReBoot machine.
+#4. ReBoot machine. </br>
 #5. Press F11 / F12 or similar "depends on the machine BIOS brand", </br>
 to activate the: Boot menu. </br>
 #6. select the USB pen drive. </br>
