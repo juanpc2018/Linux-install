@@ -149,11 +149,12 @@ $ apt install neofetch </br>
 Kpatience "solitaire" </br>
 Warpinator "Wi-Fi file transfer between Android, Linux, and Windows" requires Router with open ports. </br>
 BlockOut II "3D Tetris" </br>
-OBS Studio video screen capture record & streaming </br>
+OBS Studio "video screen capture record & streaming" </br>
 Okular "pdf viewer" </br>
 GIMP "Photoshop alternative" </br>
 InkSkape "Vector alternative to CorelDraw, Adobe ilustrator" </br>
 Krita "GIMP alternative"  </br>
+[OpenOffice](https://www.openoffice.org/download/index.html) or LibreOffice </br>
 
 #### Optional: </br>
 Signal Desktop </br>
