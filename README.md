@@ -1,69 +1,99 @@
 ## Linux-install
 
-for Begginers.
+for Begginers.</br>
 
-Windows is Internal.
-but Linux can be Interal or External "Portable"
-there are Pros and Cons.
+Windows is Internal but Linux can be Internal or External "Portable" </br>
+there are Pros and Cons. 
 
-IF installing on a internal SSD/M.2 drive
-#1. requires to set BIOS/UEFI to allow AHCI in laptops with Optane,
-or wont detect the SSD/M.2.
+1st you need to know the basic differences,</br>
+then you can understand the Pros and Cons</br>
+then you can find your favorite linux.</br>
 
-Linux can also be installed "Portable" on a External SSD/M.2
-IF using a USB pen drive as main, Linux will be very slow, flash memory is Not recommended.
-IF using a USB SSD/M.2 drive, will run max at 500MB/s in USB3.0 "fast enough"
-IF using a USB HDD 2.5" drive, will run slower 160MB/s on USB3.0 "Not fast"
-IF using a Thunderbolt3 case drive, will run faster than USB3.0
-IF using a Thunderbolt2 will run slower.
-USB4.0 Thunderbolt3 is Optional, Not default.
+IF installing Linux on a internal SSD/M.2 drive: </br>
+#1. requires to set BIOS/UEFI to allow AHCI in laptops with Optane,</br>
+or wont detect the SSD/M.2.</br>
+usually Control+S in Main BIOS/Menu or similar to Unhide or make visible the menu.</br>
 
-when formatting SSD/M.2 the 1st time "Clean Install"
-Linux allows to formatt the drive in different File Systems.
-does Not have a fixed FileSystem like other OS.
+Linux can also be installed "Portable" on a External SSD/M.2 </br>
+IF using a USB pen drive as main, Linux will be very slow, flash memory is Not recommended. </br>
+IF using a USB SSD/M.2 drive, will run max at 500MB/s in USB3.0 "fast enough" </br>
+IF using a USB HDD 2.5" drive, will run slower 160MB/s on USB3.0 "Not fast" </br>
+IF using a Thunderbolt3 case drive, will run faster than USB3.0 </br>
+IF using a Thunderbolt2 will run slower. </br>
+USB4.0 Thunderbolt3 is Optional, Not default. </br>
 
-Ext4 is the most common FS, but Newer Ext4 since Linux >16 is Not backward compatible with older Ext4 v1.0
-New Ext4 has weird sounds when formatting a Large HDD 18TB, because the strict preempt Journaling.
-Btrfs has interesting features.
-XFS is the FS i prefer, at least for large HDD.
+when formatting SSD/M.2 the 1st time "Clean Install" </br>
+Linux allows to formatt the drive in different File Systems. </br>
+does Not have a fixed FileSystem like other OS. </br>
 
-there is software that allows to Read/Write Ext4 old & New "64-Bit magic numbers",
-Ext2Fsd 0.69 works in Windows to R/W Old Ext4 v1.0
-Ext2Fsd 0.71 is a fork, and a work in progress. Read Only, Write with caution.
+Ext4 is the most common FS, but Newer Ext4 since Linux >16 is Not backward compatible with older Ext4 v1.0 </br>
+New Ext4 has weird sounds when formatting a Large HDD 18TB, because the strict preempt Journaling. </br>
+Btrfs has interesting features. </br>
+XFS is the FS i prefer, at least for large HDD. </br>
 
-if you want to Read in 1 Machine all FileSystems = Not recommended,
-for 100% compatibility is better to have multiple machines connected by Ethernet 1Gbe or faster.
-10G SFP+ fiber optic goes at 1200MB/s direct, or 500MB/s using a Router with a dual core 600MHz cpu.
+there is software that allows to Read/Write Ext4 old & New "64-Bit magic numbers", </br>
+Ext2Fsd 0.69 works in Windows to R/W Old Ext4 v1.0 </br>
+Ext2Fsd 0.71 is a fork, and a work in progress. Read Only, Write with caution. </br>
 
-Each OS has a different methods to see the other machines with Samba SMB v1 v2 v3
-Windows needs to manually activate Samba in Powershell,
-and drives cannot be seen with Windows Network File Manager,
-needs to access manually tiping the IP addres on Commnad ./192.168.1.1
-"its Hidden, Not easy access"
+if you want to Read in 1 Machine all FileSystems = Not recommended, </br>
+for 100% compatibility is better to have multiple machines connected by Ethernet 1Gbe or faster. </br>
+10G SFP+ fiber optic goes at 1200MB/s direct, or 500MB/s using a Router with a dual core 600MHz cpu. </br>
 
-There are many different Linux versions:
-Debian type "DEB", RedHat Type "RPM", Arch type, BSD type.
+Each OS has a different methods to see the other machines with Samba SMB v1 v2 v3 </br>
+Windows needs to manually activate Samba in Powershell, </br>
+and drives cannot be seen with Windows Network File Manager, </br>
+needs to access manually tiping the IP addres on Commnad ./192.168.1.1 </br>
+"its Hidden, Not easy access" </br>
 
-RPM is usually for servers, corporations using POWER9 CPUs.
-Debian is the most common Linux type.
-BSD, and Arch.
+There are many different Linux versions: </br>
+Debian type "DEB", RedHat Type "RPM", Arch type, BSD type. </br>
 
-software written for RPM can be converted to DEB with Alien app.
+RPM is usually for servers, corporations using POWER9 CPUs. </br>
+Debian is the most common Linux type. </br>
+BSD, and Arch. </br>
 
-in Debian World, there is also many branches,
-custom designed with pre-installed software for different type of users.
-Office, Video editing, Sound DAW or Clean Type, with No pre-installed software.
-Barebone.
+software written for RPM can be converted to DEB with Alien app. </br>
 
-the most popular Debian Type Distro is Ubuntu.
-but there is also other branches: Kubuntu, Xubuntu, Lubuntu, etc...
-the main difference is the "Desktop Environment"
-Linux allows to have different flavours of Desktop,
+in Debian World, there is also many branches, </br>
+custom designed with pre-installed software for different type of users. </br>
+Office, Video editing, Sound DAW, Gaming or Clean Type, with No pre-installed software. </br>
+Barebone. </br>
+
+the most popular Debian Type Distro is Ubuntu. </br>
+but there is also other branches: Kubuntu, Xubuntu, Lubuntu, etc... </br>
+the main difference is the "Desktop Environment" </br>
+Linux allows to have different flavours of Desktop, </br>
  
-KDE is the most popular Desktop, Gnome, Cinnamon "a fork of Gnome", MATE, Xfce, etc...
-different Distros come with different Desktop environments pre-installed.
-Linux allows to instal other if desired, like for example:
+KDE is the most popular Desktop, Gnome, Cinnamon "a fork of Gnome", MATE, Xfce, etc... </br>
+different Distros come with different Desktop environments pre-installed. </br>
+Linux allows to instal other if desired, like for example: </br>
+
+but there are other differences with Virtual memory management. </br>
 
 
-but there are other differences with Virtual memory management.
+The basic method to install Linux: </br>
+#1. download an .iso, </br>
+#2. download an .iso burner to USB pen drive </br>
+like BalenaEtcher, Rufus, and many others. </br>
+#3. burn the .iso to USB pen drive usually 8GB or more. </br>
+#4. ReBoot machine.
+#5. Press F11 / F12 or similar "depends on the machine", </br>
+to activate the: Boot menu. </br>
+#6. select the USB pen drive. </br>
+#7. Boot from the USB pen drive.  </br>
+
+there are more steps but those depend on your install method: </br>
+Internal or External. </br>
+
+installing Internal can be done 2 ways: </br>
+Creating a Partition on the same Windows install "Not Recommended" Advanced user only. </br>
+installing to another SSD / M.2 drive </br>
+some machines allow to install 2x SSD/M.2 internally, </br>
+some machines only have 1 slot and require to manually uninstall the old SSD/M.2. </br>
+
+machines with only 1 internal SSD/M.2 is better to install Linux to External drive. </br>
+unless you want the extra speed 500MB/s USB3 vs. 1600MB/s 2500MB/s 5000MB/s of PCIe v2 v3 v4 v5 </br>
+and does Not have Thunderbolt3 port. </br>
+
+iFix it has many tutorials how to unscrew the machine, if want to open and install a New SSD/M.2 drive. </br>
 
