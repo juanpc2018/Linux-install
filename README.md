@@ -42,8 +42,8 @@ some very strict at time of format, others as drive gets filled. </br>
 Btrfs has interesting features, ZFS... </br>
 XFS is the FileSystem i prefer, at least for large HDDs. </br>
 
-There is software that allows to Read/Write Ext4 old & New "64-Bit magic numbers", in Windows </br>
-Ext2Fsd 0.69 works in Windows R/W Old Ext4 v1.0 32-Bit </br>
+There is software that allows to Read/Write Ext4 old & New "64-Bit" in Windows </br>
+Ext2Fsd 0.69 works in Windows7/8/10 R/W Old Ext4 v1.0 32-Bit </br>
 Ext2Fsd 0.71 is a fork, and work in progress. Read Only, Write with Caution. </br>
 
 Linux allows to Read & Write many file systems: </br>
