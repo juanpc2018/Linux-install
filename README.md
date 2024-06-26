@@ -25,25 +25,38 @@ USB4.0 Thunderbolt3 is Optional, Not default. </br>
 when formatting SSD/M.2 the 1st time "Clean Install" </br>
 Linux allows to formatt the drive in different File Systems. </br>
 does Not have a fixed FileSystem like other OS. </br>
+Windows has NTFS since 7, has ReFS for Servers. </br>
+OSX since 10.6 SnowLeopard has HFS+ </br>
+OSX since 10.13 HighSierra has APFS </br>
 
-Ext4 is the most common FS, but Newer Ext4 since Linux >16 is Not backward compatible with older Ext4 v1.0 </br>
-New Ext4 has weird sounds when formatting a Large HDD 18TB, because the strict preempt Journaling. </br>
-Btrfs has interesting features. </br>
-XFS is the FS i prefer, at least for large HDD. </br>
+Linux has Ext4, the most common FileSystem, </br>
+but Newer Ext4 since Linux >16 is Not backward compatible with older Ext4 v1.0 </br>
+
+New Ext4 makess weird sounds when formatting a Large HDD 18TB, because the strict pre-empt Journaling. </br>
+Jurnaling means that the drive stores the changes about to be made by the OS, like a Log </br>
+if there is a problem like a power failure, the FileSystem can see and auto correct the errors </br>
+without Journaling errors need to be corrected manually. </br>
+but different FS have different methods how to implement Journaling. </br>
+some very strict at time of format, others as drive gets filled. </br>
+
+Btrfs has interesting features, but... </br>
+XFS is the FileSystem i prefer, at least for large HDDs. </br>
 
 there is software that allows to Read/Write Ext4 old & New "64-Bit magic numbers", </br>
-Ext2Fsd 0.69 works in Windows to R/W Old Ext4 v1.0 </br>
+Ext2Fsd 0.69 works in Windows to R/W Old Ext4 v1.0 32-Bit</br>
 Ext2Fsd 0.71 is a fork, and a work in progress. Read Only, Write with caution. </br>
 
-if you want to Read in 1 Machine all FileSystems = Not recommended, </br>
+Linux allows to Read & Write many file systems, Ext4, NTFS, ExFAT, FAT32, HFS+, APFS with optional Paragon drivers, etc...
+if want to Read/Write in 1 Machine all FileSystems = Not recommended. </br>
 for 100% compatibility is better to have multiple machines connected by Ethernet 1Gbe or faster. </br>
 10G SFP+ fiber optic goes at 1200MB/s direct, or 500MB/s using a Router with a dual core 600MHz cpu. </br>
 
 Each OS has a different methods to see the other machines with Samba SMB v1 v2 v3 </br>
 Windows needs to manually activate Samba in Powershell, </br>
-and drives cannot be seen with Windows Network File Manager, </br>
-needs to access manually tiping the IP addres on Commnad ./192.168.1.1 </br>
-"its Hidden, Not easy access" </br>
+and SMB drives cannot be seen with Windows Network File Manager, like Normal Windows Network. </br>
+needs to access manually typing the IP addres on Commnad ./192.168.1.1 </br>
+
+------------------
 
 There are many different Linux versions: </br>
 Debian type "DEB", RedHat Type "RPM", Arch type, BSD type. </br>
