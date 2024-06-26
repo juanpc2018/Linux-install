@@ -11,7 +11,7 @@ then you can find your favorite linux.</br>
 
 IF installing Linux on a internal SSD/M.2 drive: </br>
 #1. requires to set BIOS/UEFI to allow AHCI in laptops with Optane,</br>
-or wont detect the SSD/M.2.</br>
+or wont detect/boot the SSD/M.2.</br>
 usually Control+S in Main BIOS/Menu or similar to Unhide or make visible the menu.</br>
 
 Linux can also be installed "Portable" on a External SSD/M.2 </br>
