@@ -76,8 +76,12 @@ BSD forked in different OS, for Sony PlayStation4, Mac OSX, etc... </br>
 software written for RPM can be converted to DEB with Alien app. </br>
 Distros like [T2 SDE](https://t2sde.org/download/) are available for many different CPU architectures. </br>
 x86_64, Motorola 68K, MIPS, Arm aarch64, etc... </br>
-There are Distros that only support 1 type of CPU, like [Asahi Linux](https://asahilinux.org/about/) for M1 M2 CPUs, <br/>
-or T2 Linux different than T2 SDE, Only supports intel Macs with T2 chip (2018-2019). </br>
+There are Distros that only support 1 type of CPU, like [Asahi Linux](https://asahilinux.org/about/) for M1 M2 CPUs (2020-2022), <br/>
+or T2 Linux different vs. T2 SDE, Only supports intel Macs with T2 chip (2018-2019). </br>
+most other x86_64 Distros work well with (2010-2017) intel macs. </br>
+older Macs with G3 G4 G5 Cpus need more specific Distro with PowerPC BigEndian support. </br>
+most modern PowerPC CPUs since 8 are Little Endian. </br>
+BE or LE means code is read by the CPU from Left to Right, or from Right to Left. </br>
 
 in Debian there are many branches, most are for x86_64 CPUs Intel or AMD. </br>
 custom designed with pre-installed software for different type of users: </br>
