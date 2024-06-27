@@ -60,12 +60,12 @@ Windows needs to manually activate Samba in Powershell, </br>
 SMB drives cannot be seen with Windows Network File Manager, like Normal Windows Network. </br>
 needs to access manually typing the IP addres on Run Command: ./192.168.1.1 </br>
 
-------------------
+------------------ </br>
 
 There are many different Linux versions: </br>
 Debian type "DEB" </br>
-RedHat Type "RPM" </br>
-Arch type </br>
+RedHat type "RPM" </br>
+Arch type "pacman" </br>
 BSD type. </br>
 
 RPM is usually for servers, corporations using POWER9 CPUs. </br>
