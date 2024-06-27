@@ -81,7 +81,7 @@ or T2 Linux different vs. T2 SDE, Only supports intel Macs with T2 chip (2018-20
 most other x86_64 Distros work well with (2010-2017) intel macs. </br>
 older Macs with G3 G4 G5 Cpus need more specific Distro with PowerPC BigEndian support. </br>
 most modern PowerPC CPUs since 8 are Little Endian. </br>
-BE or LE means code is read by the CPU from Left to Right, or from Right to Left. </br>
+BE or LE/"EL" means code is read by the CPU from Left-to->Right, or Right-to->Left. </br>
 
 in Debian there are many branches, most are for x86_64 CPUs Intel or AMD. </br>
 custom designed with pre-installed software for different type of users: </br>
