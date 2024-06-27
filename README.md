@@ -38,7 +38,7 @@ its should have been called Ext5 in my opinion. </br>
 New Ext4 makes weird sounds when formatting a Large HDD 18TB, because the strict Journaling. </br>
 Jurnaling means that the drive stores the changes about to be made by the OS, like a Log </br>
 if there is a problem like a power failure, FileSystem can see and auto-correct the errors </br>
-without Journaling, errors need to be corrected manually. </br>
+without Journaling, errors need to be corrected manually or hdd wont write as a protection measure. </br>
 different FS have different methods how to implement Journaling. </br>
 some very strict at time of format, others as drive gets filled. </br>
 
