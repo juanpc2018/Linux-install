@@ -22,7 +22,7 @@ IF using a USB SSD/M.2 drive, will run max at 500MB/s in USB3.0 "fast enough" </
 IF using a USB HDD 2.5" drive, will run slower 160MB/s on USB3.0 "Not fast" </br>
 IF using a Thunderbolt3 case drive with SSD/M.2, will run faster than USB3.0 </br>
 IF using a Thunderbolt2 SSD/M.2 will run slower If using a TB3 to TB2 adapter. </br>
-USB4.0 Thunderbolt3 is Optional, Not all machines have it. </br>
+USB4.0 with Thunderbolt3 is Optional, Not all machines with USB4 have it. </br>
 
 When formatting SSD/M.2 the 1st time "Clean Install" </br>
 Linux allows to format the drive with different File Systems. </br>
