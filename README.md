@@ -93,14 +93,15 @@ Linux allows to instal other if desired, for example: </br>
 [MaXX](https://docs.maxxinteractive.com/) based on the sgi [IRIX](https://en.wikipedia.org/wiki/IRIX) OS, but requires NVIDIA GPU. </br>
 
 there are other differences, like the size of the Virtual memory, SWAP file, etc... </br>
-but that can also be changed by the user. </br>
-is Not only superficial change, is also functional, </br>
+but that can be changed by the user. </br>
+
+is Not only a superficial change, is also functional </br>
 for example:  </br>
 Ubuntu GNOME Desktop has Nautilus File Browser/Manager. </br>
 Kubuntu KDE Plasma Desktop has Dolphin File Manager. </br>
 both "do the same" but work a bit different. </br>
-in Nautilus when typing a letter, automatically search / filter results. </br>
-in Dolphin when typing a letter, automatically jumps to 1st folder or file name with that letter. </br>
+in Nautilus when typing a letter: automatically search & filter results. </br>
+in Dolphin when typing a letter: jumps to 1st folder or file with that letter. </br>
 there are many others, like Neon Desktop, etc... </br>
 
 ### The basic method to install Linux: </br>
