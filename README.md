@@ -76,8 +76,8 @@ BSD forked in different OS, for Sony PlayStation4, Mac OSX, etc... </br>
 software written for RPM can be converted to DEB with Alien app. </br>
 Distros like [T2 SDE](https://t2sde.org/download/) are available for many different CPU architectures. </br>
 x86_64, Motorola 68K, MIPS, Arm aarch64, etc... </br>
-There are Distros that only support 1 type of CPU, like [Asahi Linux](https://asahilinux.org/about/) for M1 M2 CPUs.
-or T2 Linux different than T2 SDE, that Only support intel Macs with T2 chip 2018-2019. </br>
+There are Distros that only support 1 type of CPU, like [Asahi Linux](https://asahilinux.org/about/) for M1 M2 CPUs, <br/>
+or T2 Linux different than T2 SDE, Only supports intel Macs with T2 chip (2018-2019). </br>
 
 in Debian there are many branches, most are for x86_64 CPUs Intel or AMD. </br>
 custom designed with pre-installed software for different type of users: </br>
