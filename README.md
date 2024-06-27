@@ -58,7 +58,7 @@ for 100% compatibility is better to have multiple machines connected by Ethernet
 Each OS has a different methods to see the other machines with Samba SMB v1 v2 v3 </br>
 Windows needs to manually activate Samba in Powershell, </br>
 SMB drives cannot be seen with Windows Network File Manager, like Normal Windows Network. </br>
-needs to access manually typing the IP addres on Command: ./192.168.1.1 </br>
+needs to access manually typing the IP addres on Run Command: ./192.168.1.1 </br>
 
 ------------------
 
