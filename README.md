@@ -117,7 +117,11 @@ to activate the: Boot menu. </br>
 there are more steps but those depend on your install method: </br>
 Internal or External. </br>
 
-there is optional methods: </br>
+Not all Linux work in all machines </br>
+depends on the Kernel version, </br>
+Kernel 6.0 or more has modern hardware support, and some old HW support was deleted. </br>
+
+### other install methods: </br>
 people that want to install / test different .isos </br>
 instead of burning each individually to many slow Pen Drives </br>
 use a software called Ventoy, that allows to Boot from a large HDD </br>
