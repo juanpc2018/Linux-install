@@ -33,20 +33,21 @@ OSX since 10.13 HighSierra has APFS </br>
 
 Linux has Ext4, the most common FileSystem, </br>
 but Newer Ext4 since Linux >16 is Not backward compatible with older Ext4 v1.0 </br>
+its should have been called Ext5 in my opinion. </br>
 
 New Ext4 makes weird sounds when formatting a Large HDD 18TB, because the strict Journaling. </br>
 Jurnaling means that the drive stores the changes about to be made by the OS, like a Log </br>
-if there is a problem like a power failure, the FileSystem can see and auto-correct the errors </br>
+if there is a problem like a power failure, FileSystem can see and auto-correct the errors </br>
 without Journaling, errors need to be corrected manually. </br>
-but different FS have different methods how to implement Journaling. </br>
+different FS have different methods how to implement Journaling. </br>
 some very strict at time of format, others as drive gets filled. </br>
 
 Btrfs has interesting features, ZFS... </br>
 XFS is the FileSystem i prefer, at least for large HDDs. </br>
 
-There is software that allows to Read/Write Ext4 old & New "64-Bit" in Windows </br>
-Ext2Fsd 0.69 works in Windows7/8/10 R/W Old Ext4 v1.0 32-Bit </br>
-Ext2Fsd 0.71 is a fork, New Ext4 work in progress. Read Only, Write with Caution. </br>
+There is software that allows to Read/Write Ext4 old & New Ext4 in Windows </br>
+Ext2Fsd 0.69 works in Windows7/8/10 R/W Old Ext4 v1.0 </br>
+Ext2Fsd 0.71 is a fork, New Ext4 but a work in progress. Read Only, Write with Caution. </br>
 
 Linux allows to Read & Write many file systems: </br>
 Ext4, NTFS, ExFAT, FAT32, Btrfs, XFS, ZFS, HFS+, APFS with optional Paragon drivers, etc... </br>
