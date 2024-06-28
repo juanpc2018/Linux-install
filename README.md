@@ -93,7 +93,7 @@ but there is also other branches: Kubuntu, Xubuntu, Lubuntu, Wubuntu, etc... </b
 The main difference is the "Desktop Environment" </br>
 Linux allows to have different flavours of Desktop. </br>
  
-KDE is the most popular Desktop, Gnome, Cinnamon "a fork of Gnome", MATE, Xfce, etc... </br>
+KDE is the most popular Desktop, Gnome, [Cinnamon](https://cdimage.ubuntu.com/ubuntucinnamon/releases/noble/release/ubuntucinnamon-24.04-desktop-amd64.iso.torrent) "a fork of Gnome", MATE, Xfce, etc... </br>
 different Distros come with different Desktops pre-installed. </br>
 Linux allows to instal other if desired, for example: </br>
 [MaXX](https://docs.maxxinteractive.com/) based on the sgi [IRIX](https://en.wikipedia.org/wiki/IRIX) OS, but requires NVIDIA GPU. </br>
